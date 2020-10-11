@@ -1,0 +1,23 @@
+{
+  "name": "demo-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpacareu-meli/demo-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpacareu-meli/demo-github-actions/issues"
+  },
+  "homepage": "https://github.com/jpacareu-meli/demo-github-actions#readme",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
