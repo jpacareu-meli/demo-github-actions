@@ -1,0 +1,13 @@
+name: Create Random Joke
+on:
+  pull_request:
+    types:
+      - opened
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 
+        uses: jpacareu-meli/random-joke-action@v1.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
